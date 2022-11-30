@@ -1,13 +1,31 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from "next/head";
+import Image from "next/image";
+// Image Imports
+import cody from "../public/cody.jpeg"
 
 export default function Home() {
   return (
-    <>
+    <main className=" max-w-screen-md">
       <Head>
-        <title>Cody Tower</title>
+        <title>
+          Cody Tower | Champion of Great Places to Work & Great Places to Live
+        </title>
       </Head>
-      <h1 className='text-2xl'>Cody Tower</h1>
-    </>
-  )
+      <div>
+        <Image src={cody} className="mb-12 w-32" alt="Photo of Cody Tower"></Image>
+        <h1 className="text-4xl md:text-6xl italic mb-6">Cody Tower</h1>
+        <h3 className="text-xl mb-6">
+          Champion of Great Places to Work & Great Places to Live
+        </h3>
+        <p className="font-sans">
+          I am a principle-centered, serving-leader who listens. A devoted
+          healthcare professional with over 20 years of progressive leadership and
+          management experience. I am qualified to strengthen teams, create
+          growth, assure quality service, and build culture, in any healthcare
+          environment. I am passionate about the care, success, and happiness of
+          others and I strive to help others feel their infinite worth.{" "}
+        </p>
+      </div>
+    </main>
+  );
 }
