@@ -7,7 +7,7 @@ import cody from "../public/cody.jpeg";
 
 export default function Home() {
   return (
-    <main className="max-w-screen-lg">
+    <main className="max-w-screen-lg text-slate-900">
       <Head>
         <title>
           Cody Tower | Champion of Great Places to Work & Great Places to Live
@@ -20,7 +20,7 @@ export default function Home() {
           className="mb-12 w-32"
           alt="Photo of Cody Tower"
         ></Image>
-        <h1 className="text-4xl md:text-6xl italic mb-6">Cody Tower</h1>
+        <h1 className="text-4xl md:text-6xl italic mb-6">Cody Tower <small className="text-sm text-slate-600">Salt Lake City, Utah</small></h1>
         <h3 className="text-xl mb-6">
           Champion of Great Places to Work & Great Places to Live
         </h3>
