@@ -7,14 +7,14 @@ import cody from "../public/cody.jpeg";
 
 export default function Home() {
   return (
-    <main className="max-w-screen-sm">
+    <main className="max-w-screen-lg">
       <Head>
         <title>
           Cody Tower | Champion of Great Places to Work & Great Places to Live
         </title>
       </Head>
 
-      <div className="p-8 lg:p-24">
+      <div className="p-8 lg:p-24 ml-60">
         <Image
           src={cody}
           className="mb-12 w-32"
