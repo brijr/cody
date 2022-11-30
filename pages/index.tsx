@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>Cody Tower</title>
       </Head>
-      <h1>Cody Tower</h1>
+      <h1 className='text-2xl'>Cody Tower</h1>
     </>
   )
 }
