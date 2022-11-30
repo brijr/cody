@@ -14,13 +14,13 @@ export default function Home() {
         </title>
       </Head>
 
-      <div className="p-8 lg:p-24 ml-60">
+      <div className="p-8 lg:p-24 lg:ml-60">
         <Image
           src={cody}
           className="mb-12 w-32"
           alt="Photo of Cody Tower"
         ></Image>
-        <h1 className="text-4xl md:text-6xl italic mb-6">Cody Tower <small className="text-sm text-slate-600">Salt Lake City, Utah</small></h1>
+        <h1 className="text-4xl md:text-6xl italic mb-6 flex flex-col lg:flex-row lg:items-end">Cody Tower <small className="text-sm text-slate-600 mt-2">Salt Lake City, Utah</small></h1>
         <h3 className="text-xl mb-6">
           Champion of Great Places to Work & Great Places to Live
         </h3>

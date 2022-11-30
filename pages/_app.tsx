@@ -5,8 +5,8 @@ import Sidebar from "../components/Sidebar";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <main>
-      <Sidebar />
       <Component {...pageProps} />
+      <Sidebar />
     </main>
   );
 }
