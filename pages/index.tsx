@@ -24,7 +24,7 @@ export default function Home() {
         <h3 className="text-xl mb-6">
           Champion of Great Places to Work & Great Places to Live
         </h3>
-        <p className="p-4 bg-slate-50 rounded-sm">
+        <p className="p-4 bg-slate-50 rounded-md">
           I am a principle-centered, serving-leader who listens. A devoted
           healthcare professional with over 20 years of progressive leadership
           and management experience. I am qualified to strengthen teams, create
