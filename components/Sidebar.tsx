@@ -3,30 +3,32 @@ import Link from "next/link";
 export default function Sidebar() {
   return (
     <div className="lg:w-60 lg:fixed left-0 top-0 flex lg:h-full shadow-md bg-slate-300 p-6 flex-col justify-between">
-      <div className="hidden lg:flex lg:flex-col lg:mt-12 sans text-lg">
+      <div className="hidden lg:flex lg:flex-col sans">
+        <p className="italic">Table of Contents</p>
+        <div className="h-px bg-slate-500 mb-4 mt-2 w-1/2"></div>
         <Link
-          className="hover:pl-2 hover:text-slate-500 transition-all duration-500"
+          className="hover:pl-1 hover:text-slate-500 transition-all duration-500"
           href="#"
         >
-          1. About
+          i. About
         </Link>
         <Link
-          className="hover:pl-2 hover:text-slate-500 transition-all duration-500"
+          className="hover:pl-1 hover:text-slate-500 transition-all duration-500"
           href="#"
         >
-          2. Experience
+          ii. Experience
         </Link>
         <Link
-          className="hover:pl-2 hover:text-slate-500 transition-all duration-500"
+          className="hover:pl-1 hover:text-slate-500 transition-all duration-500"
           href="#"
         >
-          3. Awards
+          ii. Awards
         </Link>
         <Link
-          className="hover:pl-2 hover:text-slate-500 transition-all duration-500"
+          className="hover:pl-1 hover:text-slate-500 transition-all duration-500"
           href="#"
         >
-          4. Contact
+          iv. Contact
         </Link>
       </div>
 
