@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Gardens from '../public/gardens.jpeg';
+import Gardens from '../public/gardens.jpg';
 import Avalon from '../public/avalon.jpg';
 import Discovery from '../public/discovery.jpg';
 
