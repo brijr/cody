@@ -11,7 +11,7 @@ export default function positive() {
 			</h2>
 			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-md">
 				<div className="lg:w-1/2">
-					<Image src={Gardens} alt="placeholder"></Image>
+					<Image className='rounded-md' src={Gardens} alt="placeholder"></Image>
 				</div>
 				<div className="lg:w-1/2">
 					<h3 className="text-2xl my-6 italic">Personal Influence</h3>
@@ -27,7 +27,7 @@ export default function positive() {
 			</div>
 			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-md">
 				<div className="lg:w-1/2">
-					<Image src={Gardens} alt="placeholder"></Image>
+					<Image className='rounded-md' src={Gardens} alt="placeholder"></Image>
 				</div>
 				<div className="lg:w-1/2">
 					<h3 className="text-2xl my-6 italic">Leadership</h3>
@@ -39,7 +39,7 @@ export default function positive() {
 			</div>
 			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-md">
 				<div className="lg:w-1/2">
-					<Image src={Gardens} alt="placeholder"></Image>
+					<Image className='rounded-md' src={Gardens} alt="placeholder"></Image>
 				</div>
 				<div className="lg:w-1/2">
 					<h3 className="text-2xl my-6 italic">Kalakaua Gardens</h3>
@@ -53,7 +53,7 @@ export default function positive() {
 			</div>
 			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-md">
 				<div className="lg:w-1/2">
-					<Image src={Avalon} alt="placeholder"></Image>
+					<Image className='rounded-md' src={Avalon} alt="placeholder"></Image>
 				</div>
 				<div className="lg:w-1/2">
 					<h3 className="text-2xl my-6 italic">Avalon Senior Living</h3>
@@ -68,7 +68,7 @@ export default function positive() {
 			</div>
 			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-md">
 				<div className="lg:w-1/2">
-					<Image src={Discovery} alt="placeholder"></Image>
+					<Image className='rounded-md' src={Discovery} alt="placeholder"></Image>
 				</div>
 				<div className="lg:w-1/2">
 					<h3 className="text-2xl my-6 italic">Discovery Senior Living</h3>
