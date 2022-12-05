@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html className="bg-slate-200">
+    <Html className="bg-slate-200 scroll-smooth">
       <Head>
         <link href='https://css.gg/link.css' rel='stylesheet'></link>
         <link href='https://css.gg/mail.css' rel='stylesheet'></link>

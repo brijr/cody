@@ -5,13 +5,11 @@ import Discovery from '../public/discovery.jpg';
 
 export default function positive() {
 	return (
-		<div className="p-8 lg:p-24 lg:ml-60">
-			<h2 className="text-4xl mb-8" id="positive-influence">
-				Positive Influence
-			</h2>
+		<div className="p-8 lg:p-24 lg:ml-60" id="positive-influence">
+			<h2 className="text-4xl mb-8">Positive Influence</h2>
 			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-md">
 				<div className="lg:w-1/2">
-					<Image className='rounded-md' src={Gardens} alt="placeholder"></Image>
+					<Image className="rounded-md" src={Gardens} alt="placeholder"></Image>
 				</div>
 				<div className="lg:w-1/2">
 					<h3 className="text-2xl my-6 italic">Personal Influence</h3>
@@ -27,7 +25,7 @@ export default function positive() {
 			</div>
 			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-md">
 				<div className="lg:w-1/2">
-					<Image className='rounded-md' src={Gardens} alt="placeholder"></Image>
+					<Image className="rounded-md" src={Gardens} alt="placeholder"></Image>
 				</div>
 				<div className="lg:w-1/2">
 					<h3 className="text-2xl my-6 italic">Leadership</h3>
@@ -39,7 +37,24 @@ export default function positive() {
 			</div>
 			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-md">
 				<div className="lg:w-1/2">
-					<Image className='rounded-md' src={Gardens} alt="placeholder"></Image>
+					<Image className="rounded-md" src={Discovery} alt="placeholder"></Image>
+				</div>
+				<div className="lg:w-1/2">
+					<h3 className="text-2xl my-6 italic">Discovery Senior Living</h3>
+					<p>
+						During his first year as a regional operations leader for the Longhorn region, Cody has
+						been successful in driving census, growing NOI, eliminating agency, reducing overall PRD
+						expenses, and retaining 90% of Executive Director leadership. Five communities earned
+						Great Place to Work Status, and 5 Best of Senior Living for US News & World Report.
+						Portfolio includes over 1100 units (800+ IL, 250 AL, 100 MC). In November of 2022, the
+						Longhorn Region just received the highest customer satisfaction scores in the entire
+						company.
+					</p>
+				</div>
+			</div>
+			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-md">
+				<div className="lg:w-1/2">
+					<Image className="rounded-md" src={Gardens} alt="placeholder"></Image>
 				</div>
 				<div className="lg:w-1/2">
 					<h3 className="text-2xl my-6 italic">Kalakaua Gardens</h3>
@@ -53,7 +68,7 @@ export default function positive() {
 			</div>
 			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-md">
 				<div className="lg:w-1/2">
-					<Image className='rounded-md' src={Avalon} alt="placeholder"></Image>
+					<Image className="rounded-md" src={Avalon} alt="placeholder"></Image>
 				</div>
 				<div className="lg:w-1/2">
 					<h3 className="text-2xl my-6 italic">Avalon Senior Living</h3>
@@ -63,23 +78,6 @@ export default function positive() {
 						strengthening relationships with capital partners, vetting 100&apos;s of acquisition
 						opportunities, feasibility studies, community design, day-to-day operations and sales
 						leadership. Growing from 0 to over 900 units, 12 communities under management.
-					</p>
-				</div>
-			</div>
-			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-md">
-				<div className="lg:w-1/2">
-					<Image className='rounded-md' src={Discovery} alt="placeholder"></Image>
-				</div>
-				<div className="lg:w-1/2">
-					<h3 className="text-2xl my-6 italic">Discovery Senior Living</h3>
-					<p>
-						During his first year as a regional operations leader for the Longhorn region, Cody has
-						been successful in driving census, growing NOI, eliminating agency, reducing overall PRD
-						expenses, and retaining 90% of Executive Director leadership. Five communities earned
-						Great Place to Work Status, and 5 Best of Senior Living for US News & World Report.
-						Portfolio includes over 1100 units (800+ IL, 250 AL, 100 MC). In November of 2022, the
-						Longhorn Region just received the highest customer satisfaction scores in the entire
-						company.
 					</p>
 				</div>
 			</div>

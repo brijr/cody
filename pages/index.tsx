@@ -12,12 +12,9 @@ export default function Home() {
 				<title>Cody Tower | Champion of Great Places to Work & Great Places to Live</title>
 			</Head>
 
-			<div className="p-8 lg:p-24 lg:ml-60">
+			<div className="p-8 lg:p-24 lg:ml-60" id="introduction">
 				<Image src={cody} className="mb-12 w-32" alt="Photo of Cody Tower"></Image>
-				<h1
-					className="text-4xl md:text-6xl italic mb-6 flex flex-col lg:flex-row lg:items-end"
-					id="introduction"
-				>
+				<h1 className="text-4xl md:text-6xl italic mb-6 flex flex-col lg:flex-row lg:items-end">
 					Cody Tower <small className="text-sm text-slate-600 mt-2">Salt Lake City, Utah</small>
 				</h1>
 				<h3 className="text-xl mb-6">Champion of Great Places to Work & Great Places to Live</h3>
@@ -26,7 +23,7 @@ export default function Home() {
 					with over 20 years of progressive leadership and management experience. I am qualified to
 					strengthen teams, create growth, assure quality service, and build culture, in any
 					healthcare environment. I am passionate about the care, success, and happiness of others
-					and I strive to help others feel their infinite worth.{' '}
+					and I strive to help others feel their infinite worth.
 				</p>
 			</div>
 
