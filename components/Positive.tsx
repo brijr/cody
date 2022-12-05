@@ -1,5 +1,4 @@
 import Image from 'next/image';
-// import Cody from '../public/cody.jpeg';
 import Gardens from '../public/gardens.jpeg';
 import Avalon from '../public/avalon.jpg';
 import Discovery from '../public/discovery.jpg';
