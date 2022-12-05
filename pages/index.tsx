@@ -7,7 +7,7 @@ import cody from '../public/cody.jpeg';
 
 export default function Home() {
 	return (
-		<main className="max-w-screen-xl text-slate-900">
+		<main className="max-w-screen-2xl text-slate-900">
 			<Head>
 				<title>Cody Tower | Champion of Great Places to Work & Great Places to Live</title>
 			</Head>
