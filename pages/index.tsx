@@ -15,7 +15,8 @@ export default function Home() {
 			<div className="p-8 lg:p-24 lg:ml-60" id="introduction">
 				<Image src={cody} className="mb-12 w-32" alt="Photo of Cody Tower"></Image>
 				<h1 className="text-4xl md:text-6xl italic mb-6 flex flex-col lg:flex-row lg:items-end">
-					Cody Tower <small className="text-sm text-slate-600 mt-2 lg:mb-1">Salt Lake City, Utah</small>
+					Cody Tower{' '}
+					<small className="text-sm text-slate-600 mt-2 lg:mb-1">Salt Lake City, Utah</small>
 				</h1>
 				<h3 className="text-xl mb-6">Champion of Great Places to Work & Great Places to Live</h3>
 				<p className="p-4 bg-slate-50 rounded-md">

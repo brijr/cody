@@ -11,9 +11,9 @@ export default function Sidebar() {
 				</Link>
 				<Link
 					className="hover:pl-1 hover:text-slate-500 transition-all duration-500"
-					href="#positive-influence"
+					href="#positive-impact"
 				>
-					i. Positive Influence
+					i. Positive Impact
 				</Link>
 				<Link className="hover:pl-1 hover:text-slate-500 transition-all duration-500" href="#">
 					ii. Awards

@@ -5,14 +5,14 @@ import Discovery from '../public/discovery.jpg';
 
 export default function positive() {
 	return (
-		<div className="p-8 lg:p-24 lg:ml-60" id="positive-influence">
+		<div className="p-8 lg:p-24 lg:ml-60" id="positive-impact">
 			<h2 className="text-4xl mb-8">Positive Influence</h2>
 			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-md">
 				<div className="lg:w-1/2">
 					<Image className="rounded-md" src={Gardens} alt="placeholder"></Image>
 				</div>
 				<div className="lg:w-1/2">
-					<h3 className="text-2xl my-6 italic">Personal Influence</h3>
+					<h3 className="text-2xl my-6 italic">Personal Impact</h3>
 					<p>
 						Cody has built a life around serving others. Some of these include: Launching Seniors
 						Serving Seniors program with the Utah Food Bank and being a volunteer with the Senior
