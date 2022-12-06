@@ -26,11 +26,11 @@ export default function Home() {
 				</h1>
 				<h3 className="text-xl mb-6">Champion of Great Places to Work & Great Places to Live</h3>
 				<p className="p-4 bg-slate-50 rounded-md text-lg">
-					I am a principle-centered, serving-leader who listens. A devoted healthcare professional
-					with over 20 years of progressive leadership and management experience. I am qualified to
+					Cody is a principle-centered, serving-leader who listens. A devoted healthcare professional
+					with over 20 years of progressive leadership and management experience. Cody is qualified to
 					strengthen teams, create growth, assure quality service, and build culture, in any
-					healthcare environment. I am passionate about the care, success, and happiness of others
-					and I strive to help others feel their infinite worth.
+					healthcare environment. Cody is passionate about the care, success, and happiness of others
+					and he strives to help others feel their infinite worth.
 				</p>
 			</div>
 
