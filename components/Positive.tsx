@@ -11,7 +11,7 @@ export default function positive() {
 	return (
 		<div className="p-8 lg:px-24 lg:py-12 lg:ml-60" id="positive-impact">
 			<h2 className="text-4xl mb-8">Positive Impact</h2>
-			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-xl">
+			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 lg:p-6 rounded-xl">
 				<div className="lg:w-1/2">
 					<Image className="rounded-xl" src={Fam} alt="placeholder"></Image>
 				</div>
@@ -27,7 +27,7 @@ export default function positive() {
 					</p>
 				</div>
 			</div>
-			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-xl">
+			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 lg:p-6 rounded-xl">
 				<div className="lg:w-1/2">
 					<Image className="rounded-xl" src={Team} alt="placeholder"></Image>
 				</div>
@@ -39,7 +39,7 @@ export default function positive() {
 					</p>
 				</div>
 			</div>
-			<div className="lg:flex items-center gap-8  lg:bg-slate-100 p-6 rounded-xl">
+			<div className="lg:flex items-center gap-8  lg:bg-slate-100 lg:p-6 rounded-xl">
 				<div className="lg:w-1/2">
 					<Image className="rounded-xl" src={Discovery} alt="placeholder"></Image>
 				</div>
@@ -57,11 +57,11 @@ export default function positive() {
 				</div>
 			</div>
 			<Image
-				className="mb-8 rounded-xl lg:-mt-6 lg:p-6 lg:bg-slate-100"
+				className="mb-8 rounded-xl lg:-mt-6 mt-4 lg:lg:p-6 lg:bg-slate-100"
 				src={Graphs}
 				alt="results from Cody Tower"
 			></Image>
-			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-xl">
+			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 lg:p-6 rounded-xl">
 				<div className="lg:w-1/2">
 					<Image className="rounded-xl" src={Gardens} alt="placeholder"></Image>
 				</div>
@@ -75,7 +75,7 @@ export default function positive() {
 					</p>
 				</div>
 			</div>
-			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-xl">
+			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 lg:p-6 rounded-xl">
 				<div className="lg:w-1/2">
 					<Image className="rounded-xl" src={Avalon} alt="placeholder"></Image>
 				</div>
