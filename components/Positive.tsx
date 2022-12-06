@@ -4,7 +4,7 @@ import Avalon from '../public/avalon.jpg';
 import Discovery from '../public/discovery.jpg';
 import Fam from '../public/fam.jpg';
 import Team from '../public/team.jpg';
-import Travel from '../public/travel.jpg';
+import Logos from '../public/logos.png';
 import Graphs from '../public/graphs.png';
 
 export default function positive() {
@@ -75,6 +75,7 @@ export default function positive() {
 					</p>
 				</div>
 			</div>
+			<Image className="mb-8" src={Logos} alt="logos related to cody tower"></Image>
 			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-xl">
 				<div className="lg:w-1/2">
 					<Image className="rounded-xl" src={Avalon} alt="placeholder"></Image>

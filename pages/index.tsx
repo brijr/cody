@@ -21,7 +21,7 @@ export default function Home() {
 					<small className="text-sm text-slate-600 mt-2 lg:mb-1">Salt Lake City, Utah</small>
 				</h1>
 				<h3 className="text-xl mb-6">Champion of Great Places to Work & Great Places to Live</h3>
-				<p className="p-4 bg-slate-50 rounded-md">
+				<p className="p-4 bg-slate-50 rounded-md text-lg">
 					I am a principle-centered, serving-leader who listens. A devoted healthcare professional
 					with over 20 years of progressive leadership and management experience. I am qualified to
 					strengthen teams, create growth, assure quality service, and build culture, in any
