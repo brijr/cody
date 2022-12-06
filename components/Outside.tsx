@@ -9,7 +9,7 @@ import cody6 from '../public/cody6.jpg';
 
 export default function outside() {
 	return (
-		<div className="p-8 lg:p-24 lg:ml-60" id="positive-impact">
+		<div className="p-8 lg:p-24 lg:ml-60" id="outside">
 			<h2 className="text-4xl mb-8">Outside of Work</h2>
 			<div className="lg:flex flex-wrap mb-8 rounded-xl">
 				<div className="lg:w-1/3 p-2">
