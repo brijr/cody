@@ -4,7 +4,7 @@ import Avalon from '../public/avalon.jpg';
 import Discovery from '../public/discovery.jpg';
 import Fam from '../public/fam.jpg';
 import Team from '../public/team.jpg';
-import Logos from '../public/logos.png';
+import Logos from '../public/logo2.png';
 import Graphs from '../public/graphs.png';
 
 export default function positive() {
