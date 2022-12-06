@@ -2,14 +2,18 @@ import Image from 'next/image';
 import Gardens from '../public/gardens.jpg';
 import Avalon from '../public/avalon.jpg';
 import Discovery from '../public/discovery.jpg';
+import Fam from '../public/fam.jpg';
+import Team from '../public/team.jpg';
+import Travel from '../public/travel.jpg';
+import Graphs from '../public/graphs.png';
 
 export default function positive() {
 	return (
 		<div className="p-8 lg:p-24 lg:ml-60" id="positive-impact">
 			<h2 className="text-4xl mb-8">Positive Influence</h2>
-			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-md">
+			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-xl">
 				<div className="lg:w-1/2">
-					<Image className="rounded-md" src={Gardens} alt="placeholder"></Image>
+					<Image className="rounded-xl" src={Fam} alt="placeholder"></Image>
 				</div>
 				<div className="lg:w-1/2">
 					<h3 className="text-2xl my-6 italic">Personal Impact</h3>
@@ -23,9 +27,9 @@ export default function positive() {
 					</p>
 				</div>
 			</div>
-			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-md">
+			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-xl">
 				<div className="lg:w-1/2">
-					<Image className="rounded-md" src={Gardens} alt="placeholder"></Image>
+					<Image className="rounded-xl" src={Team} alt="placeholder"></Image>
 				</div>
 				<div className="lg:w-1/2">
 					<h3 className="text-2xl my-6 italic">Leadership</h3>
@@ -35,9 +39,9 @@ export default function positive() {
 					</p>
 				</div>
 			</div>
-			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-md">
+			<div className="lg:flex items-center gap-8  lg:bg-slate-100 p-6 rounded-xl">
 				<div className="lg:w-1/2">
-					<Image className="rounded-md" src={Discovery} alt="placeholder"></Image>
+					<Image className="rounded-xl" src={Discovery} alt="placeholder"></Image>
 				</div>
 				<div className="lg:w-1/2">
 					<h3 className="text-2xl my-6 italic">Discovery Senior Living</h3>
@@ -52,9 +56,14 @@ export default function positive() {
 					</p>
 				</div>
 			</div>
-			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-md">
+			<Image
+				className="mb-8 rounded-xl lg:-mt-6 lg:p-6 lg:bg-slate-100"
+				src={Graphs}
+				alt="results from Cody Tower"
+			></Image>
+			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-xl">
 				<div className="lg:w-1/2">
-					<Image className="rounded-md" src={Gardens} alt="placeholder"></Image>
+					<Image className="rounded-xl" src={Gardens} alt="placeholder"></Image>
 				</div>
 				<div className="lg:w-1/2">
 					<h3 className="text-2xl my-6 italic">Kalakaua Gardens</h3>
@@ -66,9 +75,9 @@ export default function positive() {
 					</p>
 				</div>
 			</div>
-			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-md">
+			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-xl">
 				<div className="lg:w-1/2">
-					<Image className="rounded-md" src={Avalon} alt="placeholder"></Image>
+					<Image className="rounded-xl" src={Avalon} alt="placeholder"></Image>
 				</div>
 				<div className="lg:w-1/2">
 					<h3 className="text-2xl my-6 italic">Avalon Senior Living</h3>
