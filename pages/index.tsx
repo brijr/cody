@@ -2,8 +2,8 @@ import Head from 'next/head';
 import Image from 'next/image';
 // Component Imports
 import Positive from '../components/Positive';
+import Relationships from '../components/Relationships';
 import Outside from '../components/Outside';
-import Relationships from '../components/Relationships'
 // Image Imports
 import cody from '../public/cody.jpeg';
 
