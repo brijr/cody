@@ -1,6 +1,6 @@
 export default function positive() {
 	return (
-		<div className="p-8 lg:p-24 lg:ml-60" id="relationships">
+		<div className="p-8 lg:px-24 lg:py-12 lg:ml-60" id="relationships">
 			<h2 className="text-4xl mb-8">Relationships</h2>
 
 			<div className="mb-8 lg:bg-slate-100 p-6 rounded-xl">
