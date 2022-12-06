@@ -4,8 +4,8 @@ import cody1 from '../public/cody1.jpg';
 import cody2 from '../public/cody2.jpg';
 import cody3 from '../public/cody3.jpg';
 import cody4 from '../public/cody4.jpg';
-import cody5 from '../public/cody5.jpg';
-import cody6 from '../public/cody6.jpg';
+import cody5 from '../public/ctower.jpg';
+import cody6 from '../public/ctower1.jpg';
 
 export default function outside() {
 	return (
