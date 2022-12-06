@@ -18,7 +18,7 @@ export default function Home() {
 				/>
 			</Head>
 
-			<div className="p-8 lg:px-24 lg:py-12 lg:ml-60" id="introduction">
+			<div className="p-8 lg:px-24 lg:pb-12 lg:pt-24 lg:ml-60" id="introduction">
 				<Image src={cody} className="mb-12 w-32" alt="Photo of Cody Tower"></Image>
 				<h1 className="text-4xl md:text-6xl italic mb-6 flex flex-col lg:flex-row lg:items-end">
 					Cody Tower{' '}
