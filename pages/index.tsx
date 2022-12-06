@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 // Component Imports
 import Positive from '../components/Positive';
+import Outside from '../components/Outside';
 // Image Imports
 import cody from '../public/cody.jpeg';
 
@@ -28,7 +29,9 @@ export default function Home() {
 				</p>
 			</div>
 
-			<Positive></Positive>
+      <Positive></Positive>
+      <Outside></Outside>
+      
 		</main>
 	);
 }
