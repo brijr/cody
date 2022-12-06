@@ -75,7 +75,6 @@ export default function positive() {
 					</p>
 				</div>
 			</div>
-			<Image className="mb-8" src={Logos} alt="logos related to cody tower"></Image>
 			<div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 p-6 rounded-xl">
 				<div className="lg:w-1/2">
 					<Image className="rounded-xl" src={Avalon} alt="placeholder"></Image>
@@ -91,6 +90,7 @@ export default function positive() {
 					</p>
 				</div>
 			</div>
+			<Image className="mb-8" src={Logos} alt="logos related to cody tower"></Image>
 		</div>
 	);
 }
