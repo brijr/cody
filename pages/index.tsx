@@ -12,6 +12,10 @@ export default function Home() {
 		<main className="max-w-screen-2xl text-slate-900">
 			<Head>
 				<title>Cody Tower | Champion of Great Places to Work & Great Places to Live</title>
+				<link
+					rel="icon"
+					href="https://cody-tower.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcody.99ee36ba.jpeg&w=640&q=75"
+				/>
 			</Head>
 
 			<div className="p-8 lg:p-24 lg:ml-60" id="introduction">
@@ -30,10 +34,9 @@ export default function Home() {
 				</p>
 			</div>
 
-      <Positive></Positive>
-      <Outside></Outside>
-      <Relationships></Relationships>
-
+			<Positive></Positive>
+			<Outside></Outside>
+			<Relationships></Relationships>
 		</main>
 	);
 }
