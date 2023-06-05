@@ -88,7 +88,7 @@ export default function Sidebar() {
 						<a
 							target="_blank"
 							rel="noopener noreferrer"
-							href="https://drive.google.com/file/d/1CTBup3ISmygwWL94KvMwK23ULyr673NJ/view?usp=sharing"
+							href="/resume.pdf"
 							className="flex items-center gap-1 hover:gap-2 hover:text-slate-500 transition-all duration-500"
 						>
 							Download Resume
