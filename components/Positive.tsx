@@ -57,8 +57,7 @@ export default function positive() {
             NOI, eliminating agency, reducing overall PRD expenses, and
             retaining 90% of Executive Director leadership. Five communities
             earned Great Place to Work Status, and 5 Best of Senior Living for
-            US News & World Report. Portfolio includes over 1100 units (800+ IL,
-            250 AL, 100 MC). In November of 2022, the Longhorn Region just
+            US News & World Report. In November of 2022, the Longhorn Region just
             received the highest customer satisfaction scores in the entire
             company.
           </p>
