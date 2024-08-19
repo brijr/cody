@@ -64,7 +64,7 @@ export default function positive() {
           </p>
         </div>
       </div>
-      <div className="lg:flex items-center gap-8 mb-8 lg:bg-slate-100 lg:p-6 rounded-xl">
+      <div className="lg:flex items-center gap-8 my-8 lg:bg-slate-100 lg:p-6 rounded-xl">
         <div className="lg:w-1/2">
           <Image className="rounded-xl" src={Gardens} alt="placeholder"></Image>
         </div>
