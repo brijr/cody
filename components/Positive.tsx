@@ -41,28 +41,7 @@ export default function positive() {
           </p>
         </div>
       </div>
-      <div className="lg:flex items-center gap-8  lg:bg-slate-100 lg:p-6 rounded-xl">
-        <div className="lg:w-1/2">
-          <Image
-            className="rounded-xl"
-            src={Discovery}
-            alt="placeholder"
-          ></Image>
-        </div>
-        <div className="lg:w-1/2">
-          <h3 className="text-2xl my-6 italic">Discovery Senior Living</h3>
-          <p>
-            During his first year as a regional operations leader for the
-            Longhorn region, Cody has been successful in driving census, growing
-            NOI, eliminating agency, reducing overall PRD expenses, and
-            retaining 90% of Executive Director leadership. Five communities
-            earned Great Place to Work Status, and 5 Best of Senior Living for
-            US News & World Report. In November of 2022, the Longhorn Region just
-            received the highest customer satisfaction scores in the entire
-            company.
-          </p>
-        </div>
-      </div>
+     
       <div className="lg:flex items-center gap-8 my-8 lg:bg-slate-100 lg:p-6 rounded-xl">
         <div className="lg:w-1/2">
           <Image className="rounded-xl" src={Gardens} alt="placeholder"></Image>
